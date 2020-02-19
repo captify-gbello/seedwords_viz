@@ -2,8 +2,7 @@ name: Binder-environment
 channels:
   - conda-forge
 dependencies:
-  - python
-  - numpy
+  - python=3.7
   - pip:
     - matplotlib
     - sklearn
